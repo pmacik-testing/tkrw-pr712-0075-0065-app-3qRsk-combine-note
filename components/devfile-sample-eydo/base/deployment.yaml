@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-eydo
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0065-tenant/tkrw-pr712-0075-0065-app/devfile-sample-eydo@sha256:5dc99d37f18bb0f060863cea2ab54dd743971208a338732edc6feaa0c27174c0
         name: my-nodejs
         ports:
         - containerPort: 3001
